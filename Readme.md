@@ -8,3 +8,5 @@ Please goto [IEEE Dataport](https://ieee-dataport.org/documents/ads-b-signals-re
 Sample code for data preprocessing and incremental learning are in [ContinualLearning](https://github.com/pcwhy/CSIL/tree/main/ContinualLearning)
 
 The code that drives the discovery of Remark 1 is in the [numerical simulation folder](https://github.com/pcwhy/CSIL/tree/main/numericalSimOfDoC)
+
+Comparison of various incremental learning algorithms are in [ContinualLearning/WorkStage](https://github.com/pcwhy/CSIL/tree/main/ContinualLearning/WorkStage)
