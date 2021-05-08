@@ -9,13 +9,13 @@ set(0,'DefaultTextFontName','Times','DefaultTextFontSize',18,...
    'DefaultAxesFontName','Times','DefaultAxesFontSize',18,...
    'DefaultLineLineWidth',1,'DefaultLineMarkerSize',7.75)
 
-load('./fashion-mnist.mat')
-clear XTest
-clear YTest
-YTrain = categorical(YTrain);
-YTrain = grp2idx(YTrain);
+% load('./fashion-mnist.mat')
+% clear XTest
+% clear YTest
+% YTrain = categorical(YTrain);
+% YTrain = grp2idx(YTrain);
 
-% [XTrain,YTrain] = digitTrain4DArrayData;
+[XTrain,YTrain] = digitTrain4DArrayData;
 YTrain = double(YTrain);
 cond = YTrain >=8;
 revCond = ~cond;
@@ -226,19 +226,6 @@ accuracy = cvAccuracy(dlnet, XVal, categorical(YVal), miniBatchSize, executionEn
 % imagesc(similarMatrix)
 
 testReconstruction = sigmoid(predict(dlnet, dlarray(XVal(:,:,:,1:10),'SSCB'),'Outputs', 'weakDecoderOut'));
-figure
-for i = 1:10
-    subplot(2,10,i)
-    imagesc(squeeze(XVal(:,:,:,i)))
-end
-for i = 1:10
-    subplot(2,10,i+10)
-    recsI = reshape(gather(extractdata(testReconstruction(:,i))),[28,28]);
-    recsI = rescale(recsI);
-    recsI = reshape(recsI,[28,28,1,1]);
-    predict(dlnet, dlarray(recsI,'SSCB'))
-    imagesc(reshape(gather(extractdata(testReconstruction(:,i))),[28,28]))
-end
 
 featuresWithWeakDecoder = squeeze(dlnet.predict(dlarray(XVal,'SSCB'),'Outputs','Flatten'));
 [coeff, score, latent, tsquared, explained] = pca(extractdata(featuresWithWeakDecoder)');
