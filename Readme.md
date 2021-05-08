@@ -1,6 +1,16 @@
-This is the public repository of our paper: Class-Incremental Learning for Wireless Device Identification in IoT,  available [HERE](Class_incremental_learning_for_device_identification_in_IoT_IoT_16942_2021.pdf)
+This is the public repository of our paper: Class-Incremental Learning for Wireless Device Identification in IoT, which is available [HERE](Class_incremental_learning_for_device_identification_in_IoT_IoT_16942_2021.pdf)
 
 and [IEEE Internet of Things Journal](https://ieeexplore.ieee.org/document/9425491)
+
+@ARTICLE{9425491,
+  author={Liu, Yongxin and Wang, Jian and Li, Jianqiang and Niu, Shuteng and Song, Houbing},
+  journal={IEEE Internet of Things Journal}, 
+  title={Class-Incremental Learning for Wireless Device Identification in IoT}, 
+  year={2021},
+  volume={},
+  number={},
+  pages={1-1},
+  doi={10.1109/JIOT.2021.3078407}}
 
 Our raw dataset is available at https://ieee-dataport.org/documents/ads-b-signals-records-non-cryptographic-identification-and-incremental-learning.
 It's a raw ADS-B signal dataset with labels, the dataset is captured using a BladeRF2 SDR receiver @ 1090MHz with a sample rate of 10MHz.
