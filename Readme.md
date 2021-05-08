@@ -5,4 +5,4 @@ The paper is available [HERE](Class_incremental_learning_for_device_identificati
 
 Please goto [IEEE Dataport](https://ieee-dataport.org/documents/ads-b-signals-records-non-cryptographic-identification-and-incremental-learning) for the dataset (adsb_bladerf2_10M_qt0.mat) and preprocessed data (adsb-107loaded.mat).
 
-The code that drives the discovery of Remark 1 is in 
+The code that drives the discovery of Remark 1 is in the [numerical simulation folder](https://github.com/pcwhy/CSIL/tree/main/numericalSimOfDoC)
