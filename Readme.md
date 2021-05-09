@@ -1,5 +1,7 @@
 This is the public repository of our paper: Class-Incremental Learning for Wireless Device Identification in IoT, which is available [HERE](Class_incremental_learning_for_device_identification_in_IoT_IoT_16942_2021.pdf)
 
+More importantly, we [prove]() and verified the effect orthogonal memory representation within artificial neural network.
+
 and [IEEE Internet of Things Journal](https://ieeexplore.ieee.org/document/9425491)
 
 Our raw dataset is available at https://ieee-dataport.org/documents/ads-b-signals-records-non-cryptographic-identification-and-incremental-learning.
