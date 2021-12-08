@@ -1,6 +1,6 @@
 This is the public repository of our paper: Class-Incremental Learning for Wireless Device Identification in IoT, which is available [HERE](Class_incremental_learning_for_device_identification_in_IoT_IoT_16942_2021.pdf)
 
-More importantly, we [mathematically prove](https://github.com/pcwhy/CSIL/blob/main/Formal%20Proof%20of%20Orthogonality.pdf) and verified the effect orthogonal memory representation within artificial neural network. 
+More importantly, we [mathematically proved](https://github.com/pcwhy/CSIL/blob/main/Formal%20Proof%20of%20Orthogonality.pdf) and verified the effect orthogonal memory representation within artificial neural network. 
 
 We are delighted to know that recent advancement in neuroscience also shows the [biological evidence](https://www.nature.com/articles/s41593-021-00821-9) of orthogonal memory representations. But we have totally different [storylines](Storyline.pdf
 ).
